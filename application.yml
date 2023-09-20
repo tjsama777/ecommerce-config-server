@@ -14,7 +14,8 @@ management:
 management:
   endpoints:
      enabled-by-default:true  
-management:
-  endpoints:
+
+  endpoint:
+  health:
     show-details:always
     
