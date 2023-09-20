@@ -13,5 +13,5 @@ management:
         include: "*"
 management:
   endpoints:
-     enabled-by-default=true  
+     enabled-by-default:true  
     
