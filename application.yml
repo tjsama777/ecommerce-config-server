@@ -6,14 +6,17 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
 management:
+  health:
+    circuitbreakers:
+      enabled: true
   endpoints:
     web:
       exposure:
         include: "*"
-    enabled-by-default:true  
-
+    enabled-by-default: true
   endpoint:
-     health:
-       show-details:always
+    health:
+      show-details: always
     
