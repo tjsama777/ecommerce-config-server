@@ -14,4 +14,7 @@ management:
 management:
   endpoints:
      enabled-by-default:true  
+management:
+  endpoints:
+    show-details:always
     
